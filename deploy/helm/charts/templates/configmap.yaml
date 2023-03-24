@@ -36,6 +36,11 @@ data:
         state: {{ .Values.ndm.filters.enablePathFilter }}
         include: "{{ .Values.ndm.filters.includePaths }}"
         exclude: "{{ .Values.ndm.filters.excludePaths }}"
+      - key: model-filter
+        name: model filter
+        state: {{ .Values.ndm.filters.enableModelFilter }}
+        include: ""
+        exclude: "{{ .Values.ndm.filters.excludeModels }}"
     metaconfigs:
       - key: node-labels
         name: node labels

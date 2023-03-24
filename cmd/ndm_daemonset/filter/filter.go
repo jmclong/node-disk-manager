@@ -32,6 +32,7 @@ var RegisteredFilters = []func(){
 	vendorFilterRegister,
 	pathFilterRegister,
 	deviceValidityFilterRegister,
+	modelFilterRegister,
 }
 
 type registerFilter struct {

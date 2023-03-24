@@ -38,4 +38,9 @@ data:
         state: true
         include: "loop9"
         exclude: ""
+      - key: model-filter
+        name: model filter
+        state: true
+        include: ""
+        exclude: "Mayastor NVMe controller"
 ---
